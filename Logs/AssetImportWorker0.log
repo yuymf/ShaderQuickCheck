@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 24496 MB
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.21f1c1 (08fa194de70f) revision 588313'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16131 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-F:\software\Unity2021\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+D:\software\Unity2021\Editor\2021.3.21f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ F:/Code/ShaderLearn/Shader4Unity_comment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52889
+1290
 Successfully changed project path to: F:/Code/ShaderLearn/Shader4Unity_comment
 F:/Code/ShaderLearn/Shader4Unity_comment
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,110 +47,113 @@ F:/Code/ShaderLearn/Shader4Unity_comment
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3845173603 [EditorId] 3845173603 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-V3G1QJL9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9092] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 888717132 [EditorId] 888717132 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M1CF8VJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3845173603 [EditorId] 3845173603 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-V3G1QJL9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9092] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 888717132 [EditorId] 888717132 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M1CF8VJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 185.77 ms, found 3 plugins.
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 56.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.21f1 (1b156197d683)
-[Subsystems] Discovering subsystems at path F:/software/Unity2021/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
+[Subsystems] Discovering subsystems at path D:/software/Unity2021/Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/Code/ShaderLearn/Shader4Unity_comment/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     6043 MB
-    Driver:   31.0.15.2824
+    VRAM:     12142 MB
+    Driver:   31.0.15.2230
 Initialize mono
-Mono path[0] = 'F:/software/Unity2021/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
-Mono path[1] = 'F:/software/Unity2021/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'F:/software/Unity2021/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Mono path[0] = 'D:/software/Unity2021/Editor/2021.3.21f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/software/Unity2021/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/software/Unity2021/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/software/Unity2021/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: F:/software/Unity2021/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005121 seconds.
+Register platform support module: D:/software/Unity2021/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/software/Unity2021/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002510 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 133.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  0.487 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1267ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (487ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (134ms)
+		EndReloadAssembly (331ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (81ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (616ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (134ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (162ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010192 seconds.
+Registered in 0.006754 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Code\ShaderLearn\Shader4Unity_comment\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Code\ShaderLearn\Shader4Unity_comment\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.098 seconds
+- Completed reload, in  0.764 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2100ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (765ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1638ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (654ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (669ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (440ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (114.0 KB). Loaded Objects now: 3508.
-Memory consumption went from 107.8 MB to 107.7 MB.
-Total: 3.336900 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.221800 ms MarkObjects: 2.718600 ms  DeleteObjects: 0.122900 ms)
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3513.
+Memory consumption went from 108.8 MB to 108.7 MB.
+Total: 3.244900 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.128500 ms MarkObjects: 2.685800 ms  DeleteObjects: 0.181600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,215 +168,389 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 264307.385762 seconds.
-  path: Assets/Material/SimperShaderMat.mat
-  artifactKey: Guid(9de4047c3b265854dbfcd710b1701261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/SimperShaderMat.mat using Guid(9de4047c3b265854dbfcd710b1701261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca571ef7973fa5d95133cf6b57c386d') in 0.252613 seconds 
+  Time since last request: 2143.598494 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78022ac9964b8b27ee5578a5aeb7fe31') in 0.050029 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.819289 seconds.
-  path: Assets/Shader/NewSurfaceShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/NewSurfaceShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c7519b09499ad20911e7fe46965775') in 0.014205 seconds 
+  Time since last request: 181.815082 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5f5de819802129a512e92b513e6cc3') in 0.003055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.815560 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e9e222c7a737eb0a1daba09ed132f4') in 0.006894 seconds 
+  Time since last request: 825.516042 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4058771e329cd1dfce920ef03370395b') in 0.015085 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 828.798323 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3f0c6dd0f3728fa754c109c6b74b5f') in 0.010205 seconds 
+  Time since last request: 5.702800 seconds.
+  path: Assets/Scenes/Scene4Shader.unity
+  artifactKey: Guid(bdcab5501c124fa4daa1761317f3965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene4Shader.unity using Guid(bdcab5501c124fa4daa1761317f3965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfda99c7261178729523f27e81e4643') in 0.013888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3636.607766 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70eea45598f136d5ed628f19085b1af') in 0.016242 seconds 
+  Time since last request: 17.546707 seconds.
+  path: Assets/Scenes/Scene_6_4.unity
+  artifactKey: Guid(5cf37e2cebcd3d34489f18654682b1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_6_4.unity using Guid(5cf37e2cebcd3d34489f18654682b1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7285b46dfaaa8ca77b29138f926448') in 0.002456 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 162.377703 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaade2697d6629cfbb3f77678019ead') in 0.015462 seconds 
+  Time since last request: 73.240093 seconds.
+  path: Assets/Material/C6_DiffuseVertex.mat
+  artifactKey: Guid(95b22be5800734b498b51dd458653d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_DiffuseVertex.mat using Guid(95b22be5800734b498b51dd458653d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb35a994a1097b03df41b32ead97de5a') in 0.099959 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.157896 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1031a6181c4e42cbb2a46fe7135e3f30') in 0.015007 seconds 
+  Time since last request: 123.599994 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9e5d56cb20ebe4c5e34140aaa486af') in 0.014093 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.497520 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5f0f88c054cd50f508e9f376d443c7') in 0.021953 seconds 
+  Time since last request: 176.657948 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c7dc5df117f86336fb508bbf9c3710') in 0.002320 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.695161 seconds.
-  path: Assets/Material/C5_OriginShaderMat.mat
-  artifactKey: Guid(9de4047c3b265854dbfcd710b1701261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/C5_OriginShaderMat.mat using Guid(9de4047c3b265854dbfcd710b1701261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc17be2dc0fb1433e04985d0466e1e9') in 0.053480 seconds 
+  Time since last request: 73.258584 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eebed25fd3a3c34dacba53fc79760f') in 0.002769 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.458810 seconds.
-  path: Assets/Shader/C5_OriginShader.shader
-  artifactKey: Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader.shader using Guid(9dac390dfe5b35545a7eac851f9f8ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6d72ef55cb1cd0b992a7e855daf6bb') in 0.057407 seconds 
+  Time since last request: 82.640425 seconds.
+  path: Assets/Shader/C6_DiffuseVertex.shader
+  artifactKey: Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex.shader using Guid(5c9b20fb178197f4ca0a54c48ce0e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a88e5cc474b788d552941f308438e0') in 0.014265 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.678159 seconds.
-  path: Assets/Shader/C5_OriginShader 1.shader
-  artifactKey: Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_OriginShader 1.shader using Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe99c7b193b257f8b5c896b8768bcd5') in 0.004379 seconds 
+  Time since last request: 41.271216 seconds.
+  path: Assets/Shader/C6_DiffuseVertex 1.shader
+  artifactKey: Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex 1.shader using Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92763f8366e740c9c7a5e40291e3b9bf') in 0.003591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.881514 seconds.
-  path: Assets/Shader/C5_FalseColor.shader
-  artifactKey: Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_FalseColor.shader using Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616eb1bccbdbf98a71689d0637f07986') in 0.003642 seconds 
+  Time since last request: 11.581712 seconds.
+  path: Assets/Shader/C6_DiffuseFragment.shader
+  artifactKey: Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseFragment.shader using Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efc9fd89b9438cc8df3f7eb2d7a0433') in 0.003238 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008978 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.615 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1616ms)
-		BeginReloadAssembly (380ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (134ms)
-		EndReloadAssembly (1030ms)
-			LoadAssemblies (200ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (452ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (374ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (103.8 KB). Loaded Objects now: 3554.
-Memory consumption went from 112.6 MB to 112.5 MB.
-Total: 2.860000 ms (FindLiveObjects: 0.315700 ms CreateObjectMapping: 0.162600 ms MarkObjects: 2.270200 ms  DeleteObjects: 0.110800 ms)
+Received Import Request.
+  Time since last request: 35.633924 seconds.
+  path: Assets/Shader/C6_DiffuseFragment.shader
+  artifactKey: Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseFragment.shader using Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856ab86bdf0e6feacc99287e85e4a226') in 0.011083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 576.049771 seconds.
+  path: Assets/Shader/C6_DiffuseFragment.shader
+  artifactKey: Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseFragment.shader using Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5eb72298974736d2db63d8a0576706') in 0.013390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.208735 seconds.
+  path: Assets/Material/C6_DiffuseVertex.mat
+  artifactKey: Guid(95b22be5800734b498b51dd458653d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_DiffuseVertex.mat using Guid(95b22be5800734b498b51dd458653d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe6869e648e22fb7e6055d3a79fe40b') in 0.147625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.904674 seconds.
+  path: Assets/Material/C6_DiffuseFragment.mat
+  artifactKey: Guid(3fd3e4426905f6b4f9863ea15b6ba013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_DiffuseFragment.mat using Guid(3fd3e4426905f6b4f9863ea15b6ba013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dcc28e3f4af1424d522b92de5cb4f1') in 0.007945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.791962 seconds.
+  path: Assets/Shader/C6_HalfLambert.shader
+  artifactKey: Guid(f8d21f25d8a88ae4da9ef2447f9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_HalfLambert.shader using Guid(f8d21f25d8a88ae4da9ef2447f9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7a6593add843bb61abbd7386c6cbc2') in 0.004036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 386.084073 seconds.
+  path: Assets/Shader/C6_HalfLambert.shader
+  artifactKey: Guid(f8d21f25d8a88ae4da9ef2447f9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_HalfLambert.shader using Guid(f8d21f25d8a88ae4da9ef2447f9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a014112e1c7f081a74661e2b6c51eace') in 0.009997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.004949 seconds.
+  path: Assets/Material/C6_DiffuseFragment.mat
+  artifactKey: Guid(3fd3e4426905f6b4f9863ea15b6ba013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_DiffuseFragment.mat using Guid(3fd3e4426905f6b4f9863ea15b6ba013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1548cc1def1d04b146a541d4d11fbf9') in 0.045903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.565685 seconds.
+  path: Assets/Material/C6_DiffuseFragment_HalfLambert.mat
+  artifactKey: Guid(42e0ace6fa1da7b4eadd14109e82366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_DiffuseFragment_HalfLambert.mat using Guid(42e0ace6fa1da7b4eadd14109e82366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802a8c616b1022609c80ed38602c0a84') in 0.009494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 291.589771 seconds.
+  path: Assets/Shader/C6_DiffuseFragment.shader
+  artifactKey: Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseFragment.shader using Guid(c755104ced1969045b8e15e96eea29de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9062596d8595d5038afd2c47667748f') in 0.015579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.614819 seconds.
+  path: Assets/Shader/C6_HalfLambert.shader
+  artifactKey: Guid(f8d21f25d8a88ae4da9ef2447f9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_HalfLambert.shader using Guid(f8d21f25d8a88ae4da9ef2447f9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a70426f7a6662f3cf8233320140a0') in 0.014920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.889619 seconds.
+  path: Assets/Shader/C6_DiffuseVertex 1.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_DiffuseVertex 1.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c86c9988266adde4336201148cdc47') in 0.004417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.472795 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0ff04844277483c3f27f7bc7899c37') in 0.003916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1322.720055 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc414e6627832a6ad4e28c21ed6e5c36') in 0.004274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.866251 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94dd791c63885c9ffbd13514b33f01f') in 0.004509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.940099 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b918993d14c39d7abbdc4f08c7b1fef4') in 0.012259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.447870 seconds.
+  path: Assets/Material/C6_DiffuseFragment_HalfLambert.mat
+  artifactKey: Guid(42e0ace6fa1da7b4eadd14109e82366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_DiffuseFragment_HalfLambert.mat using Guid(42e0ace6fa1da7b4eadd14109e82366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba667d43e1922c7776e387007e93abf') in 0.042857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.554325 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d52e9e2010303504a04f11023428e0') in 0.009066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 277.246592 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd52b064558620fde29004de095790b4') in 0.018241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 621.679826 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495ed5eda6a6c6c77ecc1ee45922a081') in 0.014250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.607926 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79449ae9d994b70b743cf1c1c5f2693') in 0.015300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 935.225091 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395f9c7c12365e9ccdafc248194604f9') in 0.015182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.832403 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b567dccd75f01b5bc07697acb4b1513') in 0.003235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.815164 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab19dab2b4c110b0d6a84d3253e50a7') in 0.015455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.245039 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0398cc60938fdc42b2f085464a42215') in 0.047797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.281554 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bcd7ed7d07cd539dc8a33f197a2165') in 0.035852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 466.401552 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b188ea5a5175a18b9dc4ca39c36d767') in 0.034683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.567283 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf6fbadf775eca9c1f4b8f5492673f') in 0.036162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.393717 seconds.
+  path: Assets/Shader/C6_SpecularFragment.shader
+  artifactKey: Guid(f3018142cb9d284498e400c4158a6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularFragment.shader using Guid(f3018142cb9d284498e400c4158a6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a207e64ad116be6aa2caeab413ad27f0') in 0.004254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 187.932453 seconds.
+  path: Assets/Shader/C6_SpecularFragment.shader
+  artifactKey: Guid(f3018142cb9d284498e400c4158a6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularFragment.shader using Guid(f3018142cb9d284498e400c4158a6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e654467dada70728dc387aff5bcf5c64') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.388901 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c76ce6e14d7c74b11bb40095dadd37') in 0.015548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.964191 seconds.
+  path: Assets/Material/C6_SpecularFragment.mat
+  artifactKey: Guid(65ae818436c973b4f838e0b0a84558ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularFragment.mat using Guid(65ae818436c973b4f838e0b0a84558ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4dad740a1e23ebc15baee67cdf19d1') in 0.010568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.278486 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8322d42af9e6c847d4a37da31df0684b') in 0.035671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.293632 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f634cca6470275264d2e7fcc97f8a6') in 0.034353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.074170 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bb530b150a7bfab197f5d25c132af2') in 0.035602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.637364 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d3d223581fa3f9595365f2c401037a') in 0.037284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.401473 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Custom/C6_SpecularVertex': undeclared identifier 'worldLightDir' at line 46 (on d3d11)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 951.684463 seconds.
-  path: Assets/Shader/C5_FalseColor.shader
-  artifactKey: Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_FalseColor.shader using Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804aaf6071143bb2ca41b06a78b20065') in 0.030629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.960157 seconds.
-  path: Assets/Shader/C5_FalseColor.shader
-  artifactKey: Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_FalseColor.shader using Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6c2ef4d6e300f08c1de3e57d8ae4f1') in 0.010481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 803.866874 seconds.
-  path: Assets/Shader/C5_FalseColor.shader
-  artifactKey: Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shader/C5_FalseColor.shader using Guid(a9fb942a12515204083fb692d88903c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e955a75a23dabc728599459a65fa452') in 0.015533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.876879 seconds.
-  path: Assets/Scripts/Chapter5
-  artifactKey: Guid(aa87b9e0e74734d748c6e47fa266f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Chapter5 using Guid(aa87b9e0e74734d748c6e47fa266f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a31db258e620f18bcaa8ab2a9b198df') in 0.009714 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006810 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1563ms)
-		BeginReloadAssembly (194ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1250ms)
-			LoadAssemblies (130ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (503ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (104.0 KB). Loaded Objects now: 3557.
-Memory consumption went from 112.5 MB to 112.4 MB.
-Total: 3.881200 ms (FindLiveObjects: 0.243100 ms CreateObjectMapping: 0.183300 ms MarkObjects: 2.913400 ms  DeleteObjects: 0.539300 ms)
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'Custom/C6_SpecularVertex': undeclared identifier 'worldLightDir' at line 46 (on d3d11)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: 'df8c933921f2248b5fbc07070c2cf9c5') in 0.033911 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.975996 seconds.
-  path: Assets/Material/C5_OriginShaderMat.mat
-  artifactKey: Guid(9de4047c3b265854dbfcd710b1701261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/C5_OriginShaderMat.mat using Guid(9de4047c3b265854dbfcd710b1701261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885edc5cf2cefe306c26669e222bd1f8') in 0.115988 seconds 
+  Time since last request: 11.142558 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b30246e03ff08d8ce18d87ee5f8ee2') in 0.035175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.633276 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966938a777a52dc2d84af548c0bdb60c') in 0.003276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.249494 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6153b24210c8448b6badd3e385569db2') in 0.033060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.233119 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b5e1a8463acc284d7d50b5761a9e6b') in 0.015386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.782346 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca68e38311132f4e10f44c25b5e4ff82') in 0.037486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.365296 seconds.
+  path: Assets/Material/C6_SpecularVertex.mat
+  artifactKey: Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularVertex.mat using Guid(b4899de6afaf910439d888ccf4b87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20c7ac80ee1e640b7c3d2a4fa7b8656') in 0.041306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.949977 seconds.
+  path: Assets/Material/C6_SpecularFragment.mat
+  artifactKey: Guid(65ae818436c973b4f838e0b0a84558ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_SpecularFragment.mat using Guid(65ae818436c973b4f838e0b0a84558ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f4bf229ee11250948a94d56aa05305') in 0.035432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.350472 seconds.
+  path: Assets/Shader/C6_SpecularVertex.shader
+  artifactKey: Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularVertex.shader using Guid(b02b81ce5467ebf4db995b7f23f16e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9148f840e925ecc6a58f2e56ed7990') in 0.009543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.328577 seconds.
+  path: Assets/Shader/C6_SpecularFragment.shader
+  artifactKey: Guid(f3018142cb9d284498e400c4158a6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularFragment.shader using Guid(f3018142cb9d284498e400c4158a6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6891f31cc656fd1ae130c826aadeb3b8') in 0.013540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.176383 seconds.
+  path: Assets/Shader/C6_SpecularFragment 1.shader
+  artifactKey: Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_SpecularFragment 1.shader using Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045625831d0a15654970a8f7a2e2d650') in 0.003700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.725862 seconds.
+  path: Assets/Shader/C6_Blinn-Phone.shader
+  artifactKey: Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_Blinn-Phone.shader using Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b63585bf2218fc90a9384f88d242e28') in 0.003407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.079103 seconds.
+  path: Assets/Shader/C6_Blinn-Phone.shader
+  artifactKey: Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_Blinn-Phone.shader using Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b934b45dd7d831aa3ac7b9be241314') in 0.009251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.003180 seconds.
+  path: Assets/Shader/C6_Blinn-Phone.shader
+  artifactKey: Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C6_Blinn-Phone.shader using Guid(7c82f7a2d3468134aa4ff56c30a801ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5953b77623ec63ffe41accad69185f0') in 0.015421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.734265 seconds.
+  path: Assets/Material/C6_Blinn-Phone.mat
+  artifactKey: Guid(02b9f6b8fd312254b9a98177272b499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_Blinn-Phone.mat using Guid(02b9f6b8fd312254b9a98177272b499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc50deb5d18b1edb2f465e381a97b96a') in 0.017504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 847.763006 seconds.
+  path: Assets/Material/C6_Blinn-Phone.mat
+  artifactKey: Guid(02b9f6b8fd312254b9a98177272b499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C6_Blinn-Phone.mat using Guid(02b9f6b8fd312254b9a98177272b499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e292bdf665d9d49d5354dc50d76e505a') in 0.035082 seconds 
