@@ -33,3 +33,23 @@
 #### 逐像素高光反射
 
 <img src="img/image-20230409033657342.png" alt="image-20230409033657342" style="zoom:80%;" />
+
+### C7
+
+#### Blinn-Phone纹理
+
+![image-20230409170836727](img/image-20230409170836727.png)
+
+#### NormalMap: tangent space&world space
+
+![image-20230410100050386](img/image-20230410100050386.png)
+
+<img src="img/image-20230410102527142.png" alt="image-20230410102527142" style="zoom: 80%;" />
+
+#### RampTexture
+
+![image-20230410105206646](img/image-20230410105206646.png)
+
+#### MaskTexture
+
+![image-20230410110839568](img/image-20230410110839568.png)
