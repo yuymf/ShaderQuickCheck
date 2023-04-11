@@ -314,6 +314,7 @@ GameObject:
   - component: {fileID: 1448259003}
   - component: {fileID: 1448259002}
   - component: {fileID: 1448259006}
+  - component: {fileID: 1448259007}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -414,3 +415,20 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &1448259007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448259001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e382322d434ee34b9bdc50064796a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_material: {fileID: 2100000, guid: 5b7f3aafc44922747b06cebd5a3ad2d0, type: 2}
+  m_textureWidth: 512
+  m_backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_circleColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_blurFactor: 2

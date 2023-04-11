@@ -113,3 +113,17 @@
 <img src="img/image-20230411095808076.png" alt="image-20230411095808076" style="zoom:50%;" />
 
 脚本类名要和C#文件名相同
+
+### C11
+
+#### 序列帧动画
+
+<img src="img/image-20230411112954722.png" alt="image-20230411112954722" style="zoom:67%;" />
+
+#### 滚动背景
+
+<img src="img/动画.gif" alt="动画" style="zoom: 50%;" />
+
+#### 流动河流
+
+![waterWave](img/waterWave.gif)
