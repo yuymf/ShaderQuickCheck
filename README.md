@@ -127,3 +127,31 @@
 #### 流动河流
 
 ![waterWave](img/waterWave.gif)
+
+#### 广告牌效应
+
+![billBoard](img/billBoard.gif)
+
+### C12
+
+OnRenderImage、gpu.built
+
+#### 亮度、饱和度、对比度
+
+![BriSatCon](img/BriSatCon.gif)
+
+#### 边缘检测
+
+![EdgeDetect](img/EdgeDetect.gif)
+
+#### 高斯模糊
+
+![GaussianBlur](img/GaussianBlur.gif)
+
+#### Bloom
+
+![Bloom](img/Bloom.gif)
+
+#### 运动模糊
+
+<img src="img/MotionBlur.gif" alt="MotionBlur" style="zoom:80%;" />

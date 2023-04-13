@@ -46,13 +46,13 @@ Shader "Custom/C11_Billboard"
                 v2f o;
 
                 float3 center = float3(0, 0, 0);
-				float3 viewer = mul(unity_WorldToObject,float4(_WorldSpaceCameraPos, 1));
+				float3 viewer = mul(unity_WorldToObject, float4(_WorldSpaceCameraPos, 1));
                 float3 normalDir = viewer - center;
 
                 normalDir.y = normalDir.y * _VerticalBillboarding;
                 normalDir = normalize(normalDir);
 
-                // normal is up -> up towards front
+                // if normal is up -> up towards front
                 float3 upDir = abs(normalDir.y) > 0.999 ? float3(0, 0, 1) : float3(0, 1, 0);
                 float3 rightDir = normalize(cross(upDir, normalDir));
                 upDir = normalize(cross(normalDir, rightDir));
