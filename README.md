@@ -155,3 +155,14 @@ OnRenderImage、gpu.built
 #### 运动模糊
 
 <img src="img/MotionBlur.gif" alt="MotionBlur" style="zoom:80%;" />
+
+### C13 
+
+####  运动模糊（深度图）
+
+![MotionBlurWDT](img/MotionBlurWDT.gif)
+
+#### 全局雾效
+
+![image-20230414234939100](img/image-20230414234939100.png)
+

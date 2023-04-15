@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 310d0f7ac56a19c478516f812385f781
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - motionBlurWithDepthTextureShader: {fileID: 4800000, guid: 506d549a85c05434ab155d492056d871, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
