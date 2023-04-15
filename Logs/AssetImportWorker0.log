@@ -863,3 +863,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3786.891458 seconds.
+  path: Assets/Scenes/Scene_14_1.unity
+  artifactKey: Guid(a83be29e913e00c49afa265ec319ba3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_14_1.unity using Guid(a83be29e913e00c49afa265ec319ba3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5d13678baef7ff209d51c3db0de2dd') in 0.010975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.475482 seconds.
+  path: Assets/Material/C14_ToonShading.mat
+  artifactKey: Guid(feb3e534245d39042a0ecc6e0bb0ec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C14_ToonShading.mat using Guid(feb3e534245d39042a0ecc6e0bb0ec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20da54c9c4c21b49b02e9424c611b91b') in 0.303121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.568644 seconds.
+  path: Assets/Shader/C14_ToonShading.shader
+  artifactKey: Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_ToonShading.shader using Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a80e7b89e0310b694683fe2753570') in 0.004401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1815.991706 seconds.
+  path: Assets/Shader/C14_ToonShading.shader
+  artifactKey: Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_ToonShading.shader using Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6a3a7c71516f80d8a58bc91d41a280') in 0.014567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1002.871303 seconds.
+  path: Assets/Shader/C14_ToonShading.shader
+  artifactKey: Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_ToonShading.shader using Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3bc6516edbb305077c5f0475e870c4') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.553211 seconds.
+  path: Assets/Shader/C7_RampTexture.shader
+  artifactKey: Guid(f183144188c62124db33939acb762f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C7_RampTexture.shader using Guid(f183144188c62124db33939acb762f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed7f50c16e499104397560662d08bb6') in 0.014496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1356.464392 seconds.
+  path: Assets/Material/C14_Hatching.mat
+  artifactKey: Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C14_Hatching.mat using Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0507bc753887f5536b4621f1027c0256') in 0.020536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.538227 seconds.
+  path: Assets/Material/C14_ToonShading.mat
+  artifactKey: Guid(feb3e534245d39042a0ecc6e0bb0ec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C14_ToonShading.mat using Guid(feb3e534245d39042a0ecc6e0bb0ec2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b04b9043816f318ac69893a1d64aa8c') in 0.107092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 892.838967 seconds.
+  path: Assets/Scenes/Scene_14_2.unity
+  artifactKey: Guid(2152985ec5ec03249b4a89d52e27d692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_14_2.unity using Guid(2152985ec5ec03249b4a89d52e27d692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5bbbd62f9de715e1b030baa71a6125') in 0.003296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 284.602989 seconds.
+  path: Assets/Shader/C14_ToonShading.shader
+  artifactKey: Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_ToonShading.shader using Guid(1321089643f4b0e4db112b37504fe129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a40e4d865b872fb6474cd91883ace4') in 0.015016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.906192 seconds.
+  path: Assets/Shader/C14_ToonShading 1.shader
+  artifactKey: Guid(3e06cfbe9ac5ab342a80fb4bf2443ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_ToonShading 1.shader using Guid(3e06cfbe9ac5ab342a80fb4bf2443ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e369c657f806ac71ca2334d63c1fd25') in 0.004581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.262859 seconds.
+  path: Assets/Shader/C14_Hatching.shader
+  artifactKey: Guid(3e06cfbe9ac5ab342a80fb4bf2443ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_Hatching.shader using Guid(3e06cfbe9ac5ab342a80fb4bf2443ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f4845f8ebfe4bb05839293ca03991a') in 0.003452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.976820 seconds.
+  path: Assets/Shader/C14_Hatching.shader
+  artifactKey: Guid(3e06cfbe9ac5ab342a80fb4bf2443ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/C14_Hatching.shader using Guid(3e06cfbe9ac5ab342a80fb4bf2443ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33377817ed6a69e5b3b37d52c52cfff8') in 0.010515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1811.480951 seconds.
+  path: Assets/Textures/Chapter18/SunsetSkyboxHDR.mat
+  artifactKey: Guid(2c350d5b4f3a042d68ff5727a48e2b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter18/SunsetSkyboxHDR.mat using Guid(2c350d5b4f3a042d68ff5727a48e2b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a751bffe6395e3066ca98b341d5dcf') in 0.116053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141567 seconds.
+  path: Assets/Textures/Chapter18/EveningSkyboxHDR.mat
+  artifactKey: Guid(6a663c3cb9334461d9965646e6e25ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter18/EveningSkyboxHDR.mat using Guid(6a663c3cb9334461d9965646e6e25ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868c40cb8e2261665e3f68febbd1b328') in 0.022852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.090469 seconds.
+  path: Assets/Prefabs/Common/Dragon.prefab
+  artifactKey: Guid(52ee682b684f5425ba94a64a1a8e5e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Common/Dragon.prefab using Guid(52ee682b684f5425ba94a64a1a8e5e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916e0f337e864554e04102467f5502bc') in 0.049193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Common/Suzanne.prefab
+  artifactKey: Guid(213146ebd90504804814b63129a0cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Common/Suzanne.prefab using Guid(213146ebd90504804814b63129a0cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8122b6773b6f3701d435ccfa1f3af8fa') in 0.017231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.705849 seconds.
+  path: Assets/Material/C14_Hatching.mat
+  artifactKey: Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C14_Hatching.mat using Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a45a8e41cc77d31d925a48312bd2dfd') in 0.108786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.208612 seconds.
+  path: Assets/Material/C14_Hatching.mat
+  artifactKey: Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C14_Hatching.mat using Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a80b7ff834c8ff25556135c4cab81e') in 0.008786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.488200 seconds.
+  path: Assets/Prefabs/Common/Knot.prefab
+  artifactKey: Guid(f8049a350dfbf412cbe85b6e8228c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Common/Knot.prefab using Guid(f8049a350dfbf412cbe85b6e8228c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a923c00ffad0b88295ff8a33ac8ca1') in 0.015167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.257341 seconds.
+  path: Assets/Material/C14_Hatching.mat
+  artifactKey: Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/C14_Hatching.mat using Guid(51ca571c63215f445b561d3a38c63ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658be0b129513120feaf6ee2f77306cc') in 0.011160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.312991 seconds.
+  path: Assets/Textures/Chapter14/hatch_0.jpg
+  artifactKey: Guid(cec7935972aff4e36929bf649c13aecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/hatch_0.jpg using Guid(cec7935972aff4e36929bf649c13aecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7336d0298f56597652f7d5f8ad1242be') in 0.022604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Chapter14/hatch_5.jpg
+  artifactKey: Guid(db782b9e683fe42d894d4e8482fdb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/hatch_5.jpg using Guid(db782b9e683fe42d894d4e8482fdb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814a5b24026b1e6a584b354be4646482') in 0.011504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Chapter14/hatch_2.jpg
+  artifactKey: Guid(b76eea5b4cd334934bdfbc8f5c3b18cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/hatch_2.jpg using Guid(b76eea5b4cd334934bdfbc8f5c3b18cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80046cbd3ee40b6252a4041303bb91da') in 0.012076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Chapter14/hatch_3.jpg
+  artifactKey: Guid(8cc57c26b70fe48169162a1fca10593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/hatch_3.jpg using Guid(8cc57c26b70fe48169162a1fca10593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b92cd5682bda1d89f593b3f50c5ac2') in 0.012040 seconds 

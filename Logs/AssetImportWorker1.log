@@ -785,3 +785,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29155.063927 seconds.
+  path: Assets/Prefabs/Common/Knot.prefab
+  artifactKey: Guid(f8049a350dfbf412cbe85b6e8228c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Common/Knot.prefab using Guid(f8049a350dfbf412cbe85b6e8228c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff6153ae91d4a89bb8fc076b6b6b788') in 0.167990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 249.045262 seconds.
+  path: Assets/Textures/Chapter14/hatch_1.jpg
+  artifactKey: Guid(a52d08fa5f43c40648bbd8a6402c8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/hatch_1.jpg using Guid(a52d08fa5f43c40648bbd8a6402c8256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00313fbea9ee447fca037a9cdb5708c1') in 0.029094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Chapter14/hatch_4.jpg
+  artifactKey: Guid(8dd74c1ceae694a7b8b23b908acefcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/hatch_4.jpg using Guid(8dd74c1ceae694a7b8b23b908acefcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830323fac0cffb221a25b7e270d433e5') in 0.010674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Chapter14/paper.jpg
+  artifactKey: Guid(6cf6441ecb91440b7996c7da6135e380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Chapter14/paper.jpg using Guid(6cf6441ecb91440b7996c7da6135e380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182621a089a026407ae95f329e0c3701') in 0.145677 seconds 
