@@ -175,3 +175,17 @@ OnRenderImage、gpu.built
 #### 素描风格
 
 ![image-20230415233223887](img/image-20230415233223887.png)
+
+### C15
+
+#### 消融效果
+
+![Dissolve](img/Dissolve.gif)
+
+#### 水波效果
+
+![WaterWave](img/WaterWave-1681652726851.gif)
+
+#### 非均匀运动雾
+
+![FogNoise](img/FogNoise.gif)

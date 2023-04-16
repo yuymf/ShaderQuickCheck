@@ -1,0 +1,114 @@
+Shader "Custom/C15_WaterWave"
+{
+    Properties
+    {
+		_Color ("Main Color", Color) = (0, 0.15, 0.115, 1)
+		_MainTex ("Main Tex", 2D) = "white" {}
+		_BumpMap ("Normal Map", 2D) = "bump" {}
+		_Cubemap ("Environment Cubemap", Cube) = "_Skybox" {}
+		_WaveXSpeed ("Wave Horizontal Speed", Range(-0.1, 0.1)) = 0.01
+		_WaveYSpeed ("Wave Vertical Speed", Range(-0.1, 0.1)) = 0.01
+		_Distortion ("Distortion", Range(0, 100)) = 10
+    }
+    SubShader
+    {
+        // must be transparent!
+		Tags { "Queue"="Transparent" "RenderType"="Opaque" }
+        // grabs the screen behind the object into a texture!
+        GrabPass { "_RefractionTex" }
+
+        Pass {
+            CGPROGRAM
+			
+			#pragma vertex vert
+			#pragma fragment frag
+			
+			#include "UnityCG.cginc"
+
+			fixed4 _Color;
+            sampler2D _MainTex;
+			float4 _MainTex_ST;
+			sampler2D _BumpMap;
+			float4 _BumpMap_ST;
+			samplerCUBE _Cubemap;
+			fixed _WaveXSpeed;
+			fixed _WaveYSpeed;
+            float _Distortion;
+			sampler2D _RefractionTex;
+			float4 _RefractionTex_TexelSize;
+
+            struct a2v {
+				float4 vertex : POSITION;
+				float3 normal : NORMAL;
+				float4 tangent : TANGENT; 
+				float2 texcoord: TEXCOORD0;
+			};
+
+            struct v2f {
+				float4 pos : SV_POSITION;
+				float4 scrPos : TEXCOORD0;
+				float4 uv : TEXCOORD1;
+				float4 TtoW0 : TEXCOORD2;  
+			    float4 TtoW1 : TEXCOORD3;  
+			    float4 TtoW2 : TEXCOORD4; 
+			};
+
+            v2f vert (a2v v) {
+				v2f o;
+				o.pos = UnityObjectToClipPos(v.vertex);
+				
+				o.scrPos = ComputeGrabScreenPos(o.pos);
+				
+				o.uv.xy = TRANSFORM_TEX(v.texcoord, _MainTex);
+				o.uv.zw = TRANSFORM_TEX(v.texcoord, _BumpMap);
+				
+				float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;  
+				fixed3 worldNormal = UnityObjectToWorldNormal(v.normal);  
+				fixed3 worldTangent = UnityObjectToWorldDir(v.tangent.xyz);  
+				fixed3 worldBinormal = cross(worldNormal, worldTangent) * v.tangent.w; 
+				
+				o.TtoW0 = float4(worldTangent.x, worldBinormal.x, worldNormal.x, worldPos.x);  
+				o.TtoW1 = float4(worldTangent.y, worldBinormal.y, worldNormal.y, worldPos.y);  
+				o.TtoW2 = float4(worldTangent.z, worldBinormal.z, worldNormal.z, worldPos.z);  
+				
+				return o;
+			}
+
+            fixed4 frag (v2f i) : SV_Target {		
+				float3 worldPos = float3(i.TtoW0.w, i.TtoW1.w, i.TtoW2.w);
+				fixed3 worldViewDir = normalize(UnityWorldSpaceViewDir(worldPos));
+				
+				// tangentNormal:
+				float2 speed = _Time.y * float2(_WaveXSpeed, _WaveYSpeed);
+				fixed3 bump1 = UnpackNormal(tex2D(_BumpMap, i.uv.zw + speed)).rgb;
+				fixed3 bump2 = UnpackNormal(tex2D(_BumpMap, i.uv.zw - speed)).rgb;
+				fixed3 bump = normalize(bump1 + bump2);	
+				
+				// tangentOffset:
+				float2 offset = bump.xy * _Distortion * _RefractionTex_TexelSize.xy;
+				i.scrPos.xy = offset * i.scrPos.z + i.scrPos.xy;
+
+                // Refractor: from RefractionTex + offset(Dis + Bumpmap) + scrPos
+				fixed3 refrCol = tex2D(_RefractionTex, i.scrPos.xy/i.scrPos.w).rgb;
+				
+				// WorldNormal:
+				bump = normalize(half3(dot(i.TtoW0.xyz, bump), dot(i.TtoW1.xyz, bump), dot(i.TtoW2.xyz, bump)));
+
+                // Reflect: form Cubemap + ReflectDir(normal(Bumpmap) + view)!!!!
+				fixed4 texColor = tex2D(_MainTex, i.uv.xy + speed);
+				fixed3 reflDir = reflect(-worldViewDir, bump);
+				fixed3 reflCol = texCUBE(_Cubemap, reflDir).rgb * texColor.rgb * _Color.rgb;
+
+				// Fresnel: Use fresnel = reflectAmount
+				fixed fresnel = pow(1 - saturate(dot(worldViewDir, bump)), 4);				
+				fixed3 finalColor = reflCol * fresnel + refrCol * (1 - fresnel);
+				
+				return fixed4(finalColor, 1);
+			}
+
+            ENDCG
+        }
+    }    
+	// Do not cast shadow
+	FallBack Off
+}
