@@ -160,7 +160,7 @@ OnRenderImage、gpu.built
 
 ####  运动模糊（深度图）
 
-![MotionBlurWDT](img/MotionBlurWDT.gif)
+<img src="img/MotionBlurWDT.gif" alt="MotionBlurWDT" style="zoom:67%;" />
 
 #### 全局雾效
 
@@ -189,3 +189,19 @@ OnRenderImage、gpu.built
 #### 非均匀运动雾
 
 ![FogNoise](img/FogNoise.gif)
+
+### C17
+
+#### 表面着色器（泥土）
+
+![image-20230417184234793](img/image-20230417184234793.png)
+
+#### 自定义表面着色器（膨胀）
+
+![image-20230417204315111](img/image-20230417204315111.png)
+
+### C18
+
+#### 基本PBS
+
+![image-20230417215736796](img/image-20230417215736796.png)
